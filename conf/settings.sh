@@ -1,5 +1,3 @@
-#!/bin/bash
-
 ###################################################################################
 # Setup based on THIS FILE without interaction
 # Default value is NO and then scripts will popup with questions
@@ -36,6 +34,7 @@ SSHD_PASSWORDAUTH="yes" # option yes|no
 ###################################################################################
 # SOFTWARE_INSTALL_NGINX="off" # option on|off
 SOFTWARE_COMPILE_NGINX_RTMP="on" # option on|off
+SOFTWARE_NGINX_RTMP_STUNNEL="on" # option on|off # RTMPS workaround
 
 ###################################################################################
 # SQL Server
